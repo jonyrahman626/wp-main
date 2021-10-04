@@ -1,7 +1,6 @@
-const gulp = require('gulp');
+const gulp = require('gulp')
 const sass = require('gulp-sass')(require('sass'));
 const minify = require('gulp-minify');
-
 
 // Sass Compile to css 
 gulp.task('styles', ()=>{
