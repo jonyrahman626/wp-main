@@ -1,0 +1,18 @@
+#banner {
+    padding: 154px 0 100px;
+    .container {
+        position: relative;
+    }
+
+    .bg_img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+
+        img {
+            padding-left: 77px;
+            height: 566px;
+        }
+    }
+}
