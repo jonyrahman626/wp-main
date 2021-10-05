@@ -9,12 +9,27 @@
             li {
                 a {
                     @include fs($pera, 21px, 400);
-                    line-height: 28px;
+                    line-height: 20px;
                     margin-left: 37px;
 
                     span {
                         color: $cl3;
                     }
+                }
+                &:nth-child(3),
+                &:nth-child(4){
+                    width: 28px;
+                    height: 28px;
+                    background: #395693;
+                    border-radius: 50%;
+                    text-align: center;
+                    margin-left: 8px;
+                    a{
+                        margin-left: 0;
+                    }
+                }
+                &:nth-child(4){
+                    background: #0270AD;
                 }
             }
         }
