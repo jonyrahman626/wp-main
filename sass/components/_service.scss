@@ -1,0 +1,21 @@
+@import '../variables/variables';
+@import '../mixins/mixins';
+
+#service{
+    padding: 91px 0 122px;
+    .service_head{
+        h2{
+            @include fs($head, 33px, 900);
+        }
+        p{
+            @include fs(#000, 15px, 400);
+            padding-bottom: 45px;
+        }
+    }
+    .ser_inner{
+        padding: 85px 60px 89px 97px;
+        text-align: center;
+        border: 8px solid #F8F8F8;
+    }
+}
+
