@@ -1,3 +1,7 @@
+@import '../variables/variables';
+@import '../mixins/mixins';
+
+
 #banner {
     padding: 154px 0 100px;
     .container {
@@ -13,6 +17,14 @@
         img {
             padding-left: 77px;
             height: 566px;
+        }
+    }
+    .banner_text{
+        p{
+            @include fs($pera, 21px, 400);
+        }
+        h1{
+            @include fs($pera, 21px, 900);
         }
     }
 }
