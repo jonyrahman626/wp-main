@@ -1,0 +1,36 @@
+@import '../variables/variables';
+@import '../mixins/mixins';
+#latest_blog{
+    padding: 323px 0 256px;
+    .container{
+        position: relative;
+    }
+    .team{
+        padding: 35px 103px 42.7px 51.3px;
+        background: $pera;
+        position: absolute;
+        left: 0;
+        top: -490px;
+        width: 100%;
+        .team_text{
+            h2{
+                @include fs(#fff, 48px, 900);
+                line-height: 68px;
+                padding-top: 24px;
+            }
+            p{
+                @include fs(#fff, 21px, 400);
+                line-height: 32px;
+                padding-top: 10px;
+            }
+            a {
+                padding: 29px 25px 23px 36px;
+                border: 6px solid $head;
+                @include fs(#fff, 21px, 900);
+                line-height: 28px;
+                text-transform: uppercase;
+                margin-top: 16px;
+            }
+        }
+    }
+}

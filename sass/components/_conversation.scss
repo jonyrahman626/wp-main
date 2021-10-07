@@ -1,0 +1,52 @@
+@import '../variables/variables';
+@import '../mixins/mixins';
+
+#conversationa {
+    padding: 106px 0 136px;
+    position: relative;
+    .conv_shape1{
+        position: absolute;
+        left: -53px;
+        top: -165px;
+    }
+    .conv_shape2{
+        position: absolute;
+        right: -154px;
+        bottom: 52px;
+    }
+    .container{
+        position: relative;
+        &:after{
+            position: absolute;
+            content: '';
+            left: 0;
+            top: -106px;
+            width: 100%;
+            height: 8px;
+            background: $pera;
+        }
+    }
+
+    .convrs_text {
+        h2 {
+            @include fs($head, 48px, 900);
+            line-height: 62px;
+            padding-bottom: 27.4px;
+        }
+
+        p {
+            @include fs(#000, 21px, 400);
+            line-height: 32px;
+            padding-bottom: 41px;
+            padding-top: 24px;
+        }
+
+        a {
+            padding: 21px 27px 25px 36px;
+            border: 6px solid $pera;
+            @include fs($head, 21px, 900);
+            line-height: 28px;
+            text-transform: uppercase;
+        }
+    }
+}
