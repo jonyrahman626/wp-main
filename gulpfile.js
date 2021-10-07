@@ -11,7 +11,7 @@ gulp.task('styles', ()=>{
 
 // Js minify
 gulp.task('minify-js', ()=>{
-    return gulp.src('js/*.js') 
+    return gulp.src('js/script.js') 
     .pipe(minify())
     .pipe(gulp.dest('js'))
 });

@@ -1,0 +1,1 @@
+$(function(){$(".blog_slider").slick({slidesToShow:1,slidesToScroll:1,autoplay:!0,autoplaySpeed:2e3,nextArrow:".blog_left_arr",prevArrow:".blog_right_arr",dots:!0})});
