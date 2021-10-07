@@ -12,12 +12,12 @@
     .bg_img {
         position: absolute;
         left: 0;
-        top: -72px;
+        top: -110px;
         z-index: -1;
 
         img {
             padding-left: 77px;
-            height: 566px;
+            height: 723;
         }
     }
 
@@ -25,26 +25,31 @@
         padding-top: 70px;
 
         p {
-            @include fs($pera, 21px, 400);
-            text-transform: uppercase
+            @include fs($pera, 30px, 400);
+            text-transform: uppercase;
+            line-height: 40px;
         }
 
         h1 {
-            @include fs($head, 47px, 900);
+            @include fs($head, 72px, 900);
+            line-height: 88px;
         }
 
         a {
             border: 6px solid $pera;
-            padding: 10px 18px 9px 27px;
+            padding: 29px 24px 23px 36px;
             margin-top: 27px;
             @include fs($head, 24px, 900);
             text-transform: uppercase;
+            line-height: 32px;
         }
     }
 
-    .banner_img{
+    .banner_img {
         width: 820.95px;
-        img{
+        margin-right: -64px;
+
+        img {
             width: 100%;
         }
     }
