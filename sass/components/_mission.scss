@@ -1,0 +1,39 @@
+@import '../variables/variables';
+@import '../mixins/mixins';
+
+#mission {
+    padding-bottom: 337px;
+    background: $head;
+
+    .mission_head {
+        h2 {
+            @include fs(#fff, 48px, 900);
+            line-height: 68px;
+            padding-bottom: 19px;
+        }
+        p{
+            @include fs(#fff, 21px, 400);
+            line-height: 32px;
+            padding: 0 100px;
+        }
+
+    }
+
+    .mission_logo{
+        padding-top: 84px;
+        h4{
+            @include fs(#fff, 36px, 900);
+            line-height: 46px;
+        }
+    }
+
+    .mission_btn{
+        a{
+            padding: 29px 26px 23px 36px;
+            border: 6px solid $pera;
+            margin-top: 82px;
+            @include fs(#fff, 21px, 900);
+            line-height: 28px;
+        }
+    }
+}
