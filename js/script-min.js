@@ -1,1 +1,1 @@
-$(function(){$(".blog_slider").slick({slidesToShow:1,slidesToScroll:1,autoplay:!0,autoplaySpeed:2e3,nextArrow:".blog_left_arr",prevArrow:".blog_right_arr",dots:!0})});
+$(function(){var e=$(".slider"),r=$(".progress"),o=$(".slider__label");e.on("beforeChange",function(e,l,s,a){var i=a/(l.slideCount-1)*100;r.css("background-size",i+"% 100%").attr("aria-valuenow",i),o.text(i+"% completed")}),e.slick({slidesToShow:1,slidesToScroll:1,speed:1e3,dots:!0,nextArrow:".blog_right_arr",prevArrow:".blog_left_arr",autoplay:!0,infinity:!0,fade:!0})});

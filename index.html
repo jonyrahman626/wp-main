@@ -10,6 +10,45 @@
         href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .progress {
+            display: block;
+            width: 260px;
+            height: 6px;
+            overflow: hidden;
+            background-color: #092772;
+            background-image: linear-gradient(to right, #2B8FE5, #2B8FE5);
+            background-repeat: no-repeat;
+            background-size: 10% 100%;
+            transition: background-size 0.4s ease-in-out;
+            border-radius: 0;
+        }
+
+        .content {
+            margin: auto;
+            padding: 20px;
+        }
+
+        .image {
+            padding: 10px;
+        }
+
+        .slider img {
+            display: block;
+            width: 100%;
+        }
+
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            border: 0;
+        }
+    </style>
 </head>
 
 <body style="overflow-x: hidden;">
@@ -610,6 +649,9 @@
     ============================================================-->
     <section id="latest_blog">
         <div class="container px-lg-0">
+            <div class="blog_shape">
+                <img src="images/ser_shape.png" alt="">
+            </div>
             <div class="team">
                 <div class="row">
                     <div class="col-lg-3">
@@ -630,11 +672,15 @@
                 <div class="row">
                     <div class="col-lg-1">
                         <div class="blog_left_arr">
-                            <img src="images/left.png" alt="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="24" viewBox="0 0 32 24">
+                                <path id="np_arrow-left_888650_000000"
+                                    d="M44.918,32.291H19.711l7.688-7.7-2.5-2.508-11.977,12,11.977,12,2.5-2.508-7.688-7.7H44.918Z"
+                                    transform="translate(-12.918 -22.082)" fill="#092772" />
+                            </svg>
                         </div>
                     </div>
                     <div class="col-lg-10">
-                        <div class="blog_slider">
+                        <div class="slider">
                             <div class="row">
                                 <div class="col-lg-3">
                                     <div class="blog_text">
@@ -680,11 +726,19 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                            <span class="slider__label sr-only">
+                            </span>
                         </div>
                     </div>
                     <div class="col-lg-1">
                         <div class="blog_right_arr">
-                            <img src="images/right.png" alt="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="24" viewBox="0 0 32 24">
+                                <path id="np_arrow-left_888650_000000"
+                                    d="M12.918,32.291H38.125l-7.688-7.7,2.5-2.508,11.977,12-11.977,12-2.5-2.508,7.688-7.7H12.918Z"
+                                    transform="translate(-12.918 -22.082)" fill="#092772" />
+                            </svg>
                         </div>
                     </div>
                 </div>
@@ -733,8 +787,22 @@
                     <div class="footer_logo">
                         <img src="images/footer.png" alt="">
                         <ul class="d-flex flex-wrap justify-content-center">
-                            <li><img src="#" alt=""><a href="callto: 456-7890">Call: (123) 456-7890</a></li>
-                            <li><img src="#" alt=""><a href="mailto: info@wppool.com">Email: info@wppool.com</a></li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="22" viewBox="0 0 13 22">
+                                    <path id="np_phone_2173681_000000"
+                                        d="M22.4,0a1.961,1.961,0,0,0-1.955,1.956V20.044A1.961,1.961,0,0,0,22.4,22h9.09a1.961,1.961,0,0,0,1.955-1.956V1.956A1.961,1.961,0,0,0,31.486,0Zm3.456,1.884h2.179c.143,0,.259.164.259.367s-.116.367-.259.367H25.853c-.143,0-.259-.164-.259-.367s.116-.367.259-.367ZM21.516,4.5H32.369v13H21.516Zm5.426,14.042a1.211,1.211,0,1,1-1.21,1.211A1.211,1.211,0,0,1,26.942,18.539Z"
+                                        transform="translate(-20.441)" fill="#2B8FE5"></path>
+                                </svg>
+                                <a href="callto: 456-7890">Call: (123) 456-7890</a>
+                            </li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="19" viewBox="0 0 26 19">
+                                    <path id="np_envelope_1982262_000000"
+                                        d="M9.289,18A3.311,3.311,0,0,0,6,21.305v12.39A3.311,3.311,0,0,0,9.289,37H28.711A3.31,3.31,0,0,0,32,33.695V21.305A3.31,3.31,0,0,0,28.711,18Zm0,1.781H28.711a1.5,1.5,0,0,1,1.517,1.524v12.39a1.5,1.5,0,0,1-1.517,1.524H9.289a1.5,1.5,0,0,1-1.517-1.524V21.305a1.5,1.5,0,0,1,1.517-1.524Zm18.419.66a.886.886,0,0,0-.619.274L19,28.843l-8.089-8.128A.885.885,0,0,0,9.454,21a.894.894,0,0,0,.2.973l5.5,5.526-5.5,5.526h0a.889.889,0,1,0,1.253,1.259l5.5-5.526,1.963,1.973h0a.883.883,0,0,0,1.253,0l1.963-1.973,5.5,5.526h0a.893.893,0,0,0,.63.274.884.884,0,0,0,.636-.261.893.893,0,0,0-.013-1.272l-5.5-5.526,5.5-5.526h0a.891.891,0,0,0-.635-1.533Z"
+                                        transform="translate(-6 -18)" fill="#2B8FE5"></path>
+                                </svg>
+                                <a href="mailto: info@wppool.com">Email: info@wppool.com</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -762,13 +830,13 @@
     ============================================================-->
 
 
-
-
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/script-min.js"></script>
+
+
 </body>
 
 </html>

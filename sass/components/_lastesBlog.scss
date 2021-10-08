@@ -8,6 +8,13 @@
         position: relative;
     }
 
+    .blog_shape {
+        position: absolute;
+        left: 30%;
+        top: -200px;
+        transform: translateX(-50%);
+    }
+
     .team {
         padding: 35px 103px 42.7px 51.3px;
         background: $pera;
@@ -21,6 +28,7 @@
                 @include fs(#fff, 48px, 900);
                 line-height: 68px;
                 padding-top: 24px;
+                
             }
 
             p {
@@ -41,6 +49,13 @@
     }
 
     .lastes_blog {
+        position: relative;
+
+        .progress {
+            position: absolute;
+            left: 26%;
+            bottom: -26px;
+        }
 
         .blog_left_arr,
         .blog_right_arr {
@@ -49,7 +64,7 @@
             height: 100%;
             cursor: pointer;
 
-            img {
+            svg {
                 position: relative;
                 top: 50%;
                 transform: translateY(-50%)
@@ -61,6 +76,7 @@
                 @include fs($head, 48px, 900);
                 line-height: 62px;
                 padding-bottom: 24px;
+                padding-top: 80px;
             }
 
             p {
@@ -79,7 +95,7 @@
             }
         }
 
-        .blog_slider {
+        .slider {
             position: relative;
 
             &:after {
@@ -94,7 +110,7 @@
             }
 
             .row {
-                display: flex;
+                display: flex !important;
             }
 
             .slick-dots {
@@ -102,6 +118,7 @@
                 position: absolute;
                 left: 50%;
                 bottom: -26px;
+
                 li {
                     button {
                         font-size: 0;
@@ -124,10 +141,12 @@
                             background: $head;
                         }
                     }
-                    &.slick-active{
-                        button{
+
+                    &.slick-active {
+                        button {
                             background: $pera;
-                            &:after{
+
+                            &:after {
                                 background: $pera;
                             }
                         }
