@@ -1,4 +1,21 @@
 $(function () {
+    'use strict';
+
+    // Menu fixed code 
+    let navOff = $('.main_menu').offset().top;
+    
+    $(window).on('scroll', function(){
+        let scrolling = $(this).scrollTop();
+
+        if(scrolling > navOff){
+            $('.main_menu').addClass('menu_fix');
+        }
+        else{
+            $('.main_menu').removeClass('menu_fix');
+        }
+    });
+
+    // Blog Slider js
     var $slider = $('.slider');
     var $progressBar = $('.progress');
     var $progressBarLabel = $('.slider__label');
@@ -24,5 +41,6 @@ $(function () {
         infinity: true,
         fade: true,
     });
+
 
 });

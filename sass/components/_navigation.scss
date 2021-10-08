@@ -51,3 +51,21 @@
         }
     }
 }
+.menu_fix{
+    position: sticky;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #ddd;
+    z-index: 999;
+    animation: menuAnimate 1s;
+}
+
+@keyframes menuAnimate{
+    from{
+        transform: translateY(-80px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
