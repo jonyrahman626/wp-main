@@ -1,0 +1,47 @@
+@media (min-width: 1200px) {}
+
+@media (min-width: 991px) and (max-width: 1199.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+@media (max-width: 575.98px) {
+
+    /* Menu part start */
+    .main_menu {
+        height: 60px;
+        padding: 10px 0 !important;
+        box-shadow: 0 0 0 0 rgba(0, 10px, 10px, 0.2);
+        background: red;
+    }
+
+    .main_menu .navbar-brand img {
+        width: 120px;
+    }
+
+    .menu_info {
+        display: none;
+    }
+
+    .main_menu button{
+        margin-left: auto;
+        outline: 0;
+    }
+
+    /* Menu part end */
+
+
+
+
+    /* Header part start */
+    /* Header part end */
+    /* Header part start */
+    /* Header part end */
+    /* Header part start */
+    /* Header part end */
+    /* Header part start */
+    /* Header part end */
+    /* Header part start */
+    /* Header part end */
+}

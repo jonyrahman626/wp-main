@@ -156,3 +156,41 @@
         }
     }
 }
+
+.progress {
+    display: block;
+    width: 260px;
+    height: 6px;
+    overflow: hidden;
+    background-color: #092772;
+    background-image: linear-gradient(to right, #2B8FE5, #2B8FE5);
+    background-repeat: no-repeat;
+    background-size: 10% 100%;
+    transition: background-size 0.4s ease-in-out;
+    border-radius: 0;
+}
+
+.content {
+    margin: auto;
+    padding: 20px;
+}
+
+.image {
+    padding: 10px;
+}
+
+.slider img {
+    display: block;
+    width: 100%;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
