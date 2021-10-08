@@ -111,6 +111,8 @@
                         background: $head;
                         border: 0;
                         margin: 0 5px;
+                        cursor: pointer;
+                        outline: 0;
 
                         &:after {
                             position: absolute;

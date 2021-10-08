@@ -11,25 +11,27 @@
                     @include fs($pera, 21px, 400);
                     line-height: 20px;
                     margin-left: 37px;
+                    display: flex;
+                    flex-wrap: wrap;
 
                     span {
                         color: $cl3;
                     }
                 }
+                &:nth-child(1),
+                &:nth-child(2){
+                    a{
+                        span{
+                            margin-left: 10px;
+                        }
+                    }
+                }
                 &:nth-child(3),
                 &:nth-child(4){
-                    width: 28px;
-                    height: 28px;
-                    background: #395693;
-                    border-radius: 50%;
-                    text-align: center;
                     margin-left: 8px;
                     a{
                         margin-left: 0;
                     }
-                }
-                &:nth-child(4){
-                    background: #0270AD;
                 }
             }
         }
@@ -43,6 +45,7 @@
                     font-weight: 900;
                     margin-left: 36px;
                     padding: 0;
+                    margin-top: 15px;
                 }
             }
         }
