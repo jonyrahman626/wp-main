@@ -14,6 +14,138 @@
     .container {
         max-width: 1420px;
     }
+
+    .menu_fix {
+        position: relative;
+    }
+
+    /* Banner part start */
+    #banner {
+        padding: 100px 0 83px;
+    }
+
+    #banner .banner_text h1 {
+        font-size: 62px;
+    }
+
+    /* Banner part end */
+
+    /* Service part start */
+
+    #service .ser_inner {
+        padding: 30px 30px 30px 30px;
+    }
+
+    #service {
+        padding: 50px 0 70px;
+    }
+
+    #service .container::after {
+        bottom: -20px;
+    }
+
+    /* Service part end */
+
+    /* Certification part start */
+
+    #certified_patner {
+        padding-bottom: 100px;
+    }
+
+    /* Certification part end */
+
+    /* About part start */
+    #about {
+        padding: 100px 0 80px;
+    }
+
+
+    #about .about_img .about_shape1 {
+        right: 8px;
+        top: -15px;
+    }
+
+
+    #about .about_img .about_shape2 {
+        left: 246px;
+        top: 30px;
+    }
+
+    #about .about_img .about_shape3 {
+        position: absolute;
+        right: 125px;
+        bottom: -68px;
+        z-index: 1;
+    }
+
+    /* About part end */
+
+    /* Mission part start */
+
+    #mission {
+        padding-bottom: 225px;
+    }
+
+    /* Mission part end */
+
+    /* Latest part start */
+    .team_img img {
+        width: 100%;
+    }
+
+
+    #latest_blog .team .team_text a {
+        padding: 15px 15px 15px 15px;
+        border: 4px solid #092772;
+        font-size: 16px;
+    }
+
+
+    #latest_blog .lastes_blog .blog_left_arr svg,
+    #latest_blog .lastes_blog .blog_right_arr svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    #latest_blog {
+        padding: 226px 0 135px;
+    }
+
+    #latest_blog .team {
+        top: -351px;
+    }
+
+    #latest_blog .lastes_blog .blog_text h2 {
+        font-size: 47px;
+    }
+
+    /* Latest part end */
+
+    /* Conversational part start */
+    #conversationa {
+        padding: 80px 0 100px;
+    }
+
+    #conversationa .container::after {
+        top: -87px;
+    }
+
+    #conversationa .conv_shape1 {
+        top: -118px;
+    }
+
+    /* Conversational part end */
+
+    /* Footer part start */
+    #footer .footer_menu ul li a {
+        margin: 24px 12px 0;
+    }
+
+    #footer .footer_logo ul li {
+        margin: 43px 10px 0;
+    }
+
+    /* Footer part end */
 }
 
 
@@ -21,6 +153,243 @@
     .container {
         max-width: 1320px;
     }
+
+    /* Banner part start */
+    #banner {
+        padding: 100px 0 83px;
+    }
+
+    #banner .banner_text h1 {
+        font-size: 58px;
+        line-height: 80px;
+    }
+
+    #banner .banner_text {
+        padding-top: 0px;
+    }
+
+    #banner .bg_img img {
+        padding-left: 40px;
+        height: 660px;
+    }
+
+    #banner .bg_img {
+        top: -150px;
+    }
+
+    /* Banner part end */
+
+    /* Service part start */
+    .ser_shap img {
+        width: 280px;
+    }
+
+    #service .ser_shap {
+        left: -30px;
+    }
+
+    #service .ser_inner {
+        padding: 30px 15px 30px 15px;
+        border: 8px solid #f8f8f8;
+    }
+
+    #service {
+        padding: 50px 0 70px;
+    }
+
+    #service .container::after {
+        bottom: -20px;
+    }
+
+    /* Service part end */
+
+    /* Certification part start */
+
+    #certified_patner .certify_text {
+        padding-right: 0;
+    }
+
+    #certified_patner {
+        padding-bottom: 100px;
+    }
+
+    /* Certification part end */
+
+    /* About part start */
+    #about {
+        padding: 100px 0 80px;
+    }
+
+
+    #about .about_img .about_shape1 {
+        right: 35px;
+        top: -15px;
+    }
+
+    .about_shape1 img,
+    .about_shape2 img,
+    .about_shape3 img,
+    .about_shape4 img {
+        width: 90px;
+    }
+
+    #about .about_img .about_shape2 {
+        left: 246px;
+        top: 30px;
+    }
+
+    #about .about_img .about_shape3 {
+        position: absolute;
+        right: 125px;
+        bottom: -68px;
+        z-index: 1;
+    }
+
+    #about .shape_big {
+        position: absolute;
+        left: 100px;
+        top: 50px;
+    }
+
+    #about .shape_big img {
+        width: 50%;
+    }
+
+    #about .about_img .about_shape4 {
+        left: 20px;
+    }
+
+    #about .about_text .about_text_shape {
+        left: 115px;
+        bottom: -105px;
+    }
+
+    #about .about_text .about_text_shape img {
+        width: 90px;
+    }
+
+    /* About part end */
+
+    /* Mission part start */
+    #mission .mission_head p {
+        padding: 0 0px;
+    }
+
+    .mission_logo svg {
+        width: 80px;
+        height: 80px;
+    }
+
+    #mission .mission_logo {
+        padding-top: 50px;
+    }
+
+    #mission {
+        padding-bottom: 225px;
+    }
+
+    /* Mission part end */
+
+    /* Latest part start */
+    .team_img img {
+        width: 100%;
+    }
+
+    #latest_blog .team {
+        padding: 30px 15px 30px 15px;
+    }
+
+    #latest_blog .team .team_text h2 {
+        padding-top: 0px;
+    }
+
+    #latest_blog .team .team_text a {
+        padding: 15px 15px 15px 15px;
+        border: 4px solid #092772;
+        font-size: 16px;
+    }
+
+    #latest_blog .blog_shape {
+        left: 30%;
+        top: -50px;
+    }
+
+    .blog_shape img {
+        width: 225px;
+    }
+
+    #latest_blog .lastes_blog .blog_left_arr svg,
+    #latest_blog .lastes_blog .blog_right_arr svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    #latest_blog {
+        padding: 226px 0 135px;
+    }
+
+    #latest_blog .team {
+        top: -351px;
+    }
+
+    #latest_blog .lastes_blog .blog_text h2 {
+        font-size: 30px;
+        line-height: 40px;
+        padding-bottom: 15px;
+        padding-top: 25px;
+    }
+
+
+    #latest_blog .lastes_blog .slider::after {
+        right: 200px;
+        bottom: -50px;
+        width: 300px;
+        height: 92px;
+    }
+
+
+    #latest_blog .lastes_blog .slider .slick-dots {
+        left: 57%;
+        bottom: -22px;
+    }
+
+    #latest_blog .lastes_blog .slider .slick-dots {
+        left: 57%;
+        bottom: -22px;
+    }
+
+    .conv_shape1 img {
+        width: 200px;
+    }
+
+    #conversationa .conv_shape1 {
+        left: -45px;
+        top: -110px;
+    }
+
+    /* Latest part end */
+
+    /* Conversational part start */
+    #conversationa {
+        padding: 80px 0 100px;
+    }
+
+    #conversationa .container::after {
+        top: -87px;
+    }
+
+    /* Conversational part end */
+
+    /* Footer part start */
+    #footer .footer_menu ul li a {
+        margin: 24px 12px 0;
+    }
+
+    #footer .footer_logo ul li {
+        margin: 43px 10px 0;
+    }
+
+    /* Footer part end */
 }
 
 @media (min-width: 1200px) and (max-width: 1399.98px) {
@@ -29,6 +398,10 @@
     }
 
     /* Banner part start */
+    #banner {
+        padding: 100px 0 83px;
+    }
+
     #banner .banner_text h1 {
         font-size: 50px;
         line-height: 70px;
@@ -80,6 +453,259 @@
     }
 
     /* Service part end */
+
+    /* Certification part start */
+    #certified_patner .container {
+        padding: 30px 15px 30px 15px !important;
+    }
+
+    #certified_patner .certify_text h2 {
+        padding-top: 0;
+    }
+
+    #certified_patner .certify_text p {
+        padding-bottom: 30px;
+    }
+
+    #certified_patner .certify_text p span {
+        padding-top: 15px;
+    }
+
+    #certified_patner .certify_text {
+        padding-right: 0;
+    }
+
+    #certified_patner .crft2 {
+        margin-left: 15px;
+    }
+
+    #certified_patner {
+        padding-bottom: 100px;
+    }
+
+    /* Certification part end */
+
+    /* About part start */
+    #about {
+        padding: 100px 0 80px;
+    }
+
+    #about .about_text h2 {
+        font-size: 46px;
+    }
+
+    #about .about_img .about_shape1 {
+        right: 35px;
+        top: -15px;
+    }
+
+    .about_shape1 img,
+    .about_shape2 img,
+    .about_shape3 img,
+    .about_shape4 img {
+        width: 90px;
+    }
+
+    #about .about_img .about_shape2 {
+        left: 246px;
+        top: 30px;
+    }
+
+    #about .about_img .about_shape3 {
+        position: absolute;
+        right: 125px;
+        bottom: -68px;
+        z-index: 1;
+    }
+
+    #about .shape_big {
+        position: absolute;
+        left: 100px;
+        top: 50px;
+    }
+
+    #about .shape_big img {
+        width: 50%;
+    }
+
+    #about .about_img .about_shape4 {
+        left: 20px;
+    }
+
+    #about .about_text .about_text_shape {
+        left: 115px;
+        bottom: -105px;
+    }
+
+    #about .about_text .about_text_shape img {
+        width: 90px;
+    }
+
+    /* About part end */
+
+    /* Mission part start */
+    #mission .mission_head p {
+        padding: 0 0px;
+    }
+
+    .mission_logo svg {
+        width: 80px;
+        height: 80px;
+    }
+
+    #mission .mission_logo h4 {
+        font-size: 25px;
+    }
+
+    #mission .mission_logo {
+        padding-top: 50px;
+    }
+
+    #mission {
+        padding-bottom: 225px;
+    }
+
+    /* Mission part end */
+
+    /* Latest part start */
+    .team_img img {
+        width: 100%;
+    }
+
+    #latest_blog .team {
+        padding: 30px 15px 30px 15px;
+    }
+
+    #latest_blog .team .team_text h2 {
+        padding-top: 0px;
+    }
+
+    #latest_blog .team .team_text a {
+        padding: 15px 15px 15px 15px;
+        border: 4px solid #092772;
+        font-size: 16px;
+    }
+
+    #latest_blog .blog_shape {
+        left: 30%;
+        top: -50px;
+    }
+
+    .blog_shape img {
+        width: 225px;
+    }
+
+    #latest_blog .lastes_blog .blog_left_arr svg,
+    #latest_blog .lastes_blog .blog_right_arr svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    #latest_blog {
+        padding: 226px 0 135px;
+    }
+
+    #latest_blog .team {
+        top: -351px;
+    }
+
+    #latest_blog .lastes_blog .blog_text h2 {
+        font-size: 30px;
+        line-height: 40px;
+        padding-bottom: 15px;
+        padding-top: 25px;
+    }
+
+    #latest_blog .lastes_blog .blog_text p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    #latest_blog .lastes_blog .blog_text a {
+        font-size: 16px;
+        padding: 10px 15px 10px 15px;
+        border: 4px solid #2b8fe5;
+        margin-top: 15px;
+    }
+
+    #latest_blog .lastes_blog .blog_text a {
+        font-size: 17px;
+        padding: 15px 15px 15px 15px;
+        margin-top: 20px;
+    }
+
+    #latest_blog .lastes_blog .slider::after {
+        right: 200px;
+        bottom: -50px;
+        width: 300px;
+        height: 92px;
+    }
+
+    .progress {
+        width: 120px;
+    }
+
+    #latest_blog .lastes_blog .progress {
+        left: 40%;
+        bottom: -19px;
+    }
+
+    #latest_blog .lastes_blog .slider .slick-dots {
+        left: 57%;
+        bottom: -22px;
+    }
+
+    #latest_blog .lastes_blog .slider .slick-dots {
+        left: 57%;
+        bottom: -22px;
+    }
+
+    .conv_shape1 img {
+        width: 200px;
+    }
+
+    #conversationa .conv_shape1 {
+        left: -45px;
+        top: -110px;
+    }
+
+    /* Latest part end */
+
+    /* Conversational part start */
+    #conversationa {
+        padding: 80px 0 100px;
+    }
+
+    #conversationa .container::after {
+        top: -87px;
+    }
+
+    #conversationa .convrs_text h2 {
+        font-size: 42px;
+    }
+
+    #conversationa .conv_shape2 {
+        position: absolute;
+        right: -75px;
+    }
+
+    #conversationa .conv_shape2 img {
+        width: 150px;
+    }
+
+    /* Conversational part end */
+
+    /* Footer part start */
+    #footer .footer_menu ul li a {
+        margin: 24px 12px 0;
+    }
+
+    #footer .footer_logo ul li {
+        margin: 43px 10px 0;
+    }
+
+    /* Footer part end */
+
 }
 
 @media (min-width: 991px) and (max-width: 1199.98px) {
@@ -558,7 +1184,7 @@
     }
 
     #banner {
-        padding: 70px 0 70px;
+        padding: 70px 0 10px;
     }
 
     /* Banner part end */
@@ -599,11 +1225,11 @@
     }
 
     #service {
-        padding: 50px 0 70px;
+        padding: 50px 0 110px;
     }
 
     #service .container::after {
-        bottom: -20px;
+        bottom: -42px;
     }
 
     .ser_inner svg {
@@ -760,7 +1386,7 @@
     }
 
     #mission {
-        padding-bottom: 240px;
+        padding-bottom: 220px;
     }
 
     /* Mission part end */
@@ -812,11 +1438,11 @@
     }
 
     #latest_blog {
-        padding: 200px 0 70px;
+        padding: 175px 0 70px;
     }
 
     #latest_blog .team {
-        top: -355px;
+        top: -325px;
     }
 
     #latest_blog .lastes_blog .blog_text h2 {
@@ -996,7 +1622,7 @@
 
     /* Banner part start */
     #banner {
-        padding: 60px 0 20px;
+        padding: 60px 0 0px;
     }
 
     #banner .banner_text {
@@ -1077,11 +1703,11 @@
     }
 
     #service {
-        padding: 60px 0 60px;
+        padding: 50px 0 90px;
     }
 
     #service .container::after {
-        bottom: -18px;
+        bottom: -32px;
     }
 
     #service .ser_shap {
@@ -1132,7 +1758,7 @@
 
     /* About part start */
     #about {
-        padding: 50px 0 50px;
+        padding: 60px 0 50px;
     }
 
     #about .about_text h2 {
@@ -1242,7 +1868,7 @@
     }
 
     #mission {
-        padding-bottom: 218px;
+        padding-bottom: 225px;
     }
 
     #mission .mission_btn a {
@@ -1304,7 +1930,7 @@
         font-size: 35px;
         line-height: 42px;
         padding-bottom: 15px;
-        padding-top: 50px;
+        padding-top: 45px;
     }
 
     #latest_blog .lastes_blog .blog_text a {
@@ -1349,7 +1975,7 @@
     }
 
     #latest_blog {
-        padding: 323px 0 100px;
+        padding: 323px 0 110px;
     }
 
     #conversationa .conv_shape1 {
@@ -1367,6 +1993,7 @@
     #conversationa .convrs_text h2 {
         font-size: 35px;
         line-height: 42px;
+        padding-top: 10px;
     }
 
     #conversationa .convrs_text p {
@@ -1376,7 +2003,7 @@
     }
 
     #conversationa {
-        padding: 50px 0 50px;
+        padding: 50px 0 60px;
     }
 
     #conversationa .convrs_text a {
@@ -1570,7 +2197,7 @@
     }
 
     #service {
-        padding: 50px 0 50px;
+        padding: 30px 0 60px;
     }
 
     #service .container::after {
@@ -1625,7 +2252,7 @@
 
     /* About part start */
     #about {
-        padding: 50px 0 50px;
+        padding: 50px 0 40px;
     }
 
     #about .about_text h2 {
