@@ -53,6 +53,14 @@
                     position: relative;
                     z-index: 1;
                     @include btnHover($pera);
+                    &.active{
+                        color: #fff;
+                        &:after,
+                        &:before{
+                            width: 50%;
+                            transform: skewX(30deg);
+                        }
+                    }
                 }
             }
         }

@@ -17,6 +17,7 @@
 
     .about_text {
         position: relative;
+
         h2 {
             @include fs(#fff, 48px, 900);
             line-height: 88px;
@@ -39,7 +40,8 @@
             z-index: 1;
             @include btnHover($pera);
         }
-        .about_text_shape{
+
+        .about_text_shape {
             position: absolute;
             left: 111px;
             bottom: -460.9px;
@@ -59,6 +61,7 @@
             right: 65px;
             top: -111px;
             z-index: 1;
+            animation: move1 10s infinite alternate;
         }
 
         .about_shape2 {
@@ -66,6 +69,8 @@
             left: 270px;
             top: 70px;
             z-index: 1;
+            transform: scale(1);
+            animation: pulse 2s infinite;
         }
 
         .about_shape3 {
@@ -73,7 +78,10 @@
             right: 308px;
             bottom: -113px;
             z-index: 1;
+            transform: scale(1);
+            animation: pulse 2s infinite;
         }
+
         .about_shape4 {
             position: absolute;
             left: 130px;
