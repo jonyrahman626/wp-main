@@ -1,7 +1,46 @@
-
-@mixin fs($c,$fs,$fw) {
+@mixin fs($c, $fs, $fw) {
     color: $c;
     font-size: $fs;
     font-weight: $fw;
     // font-family: "eurostile";
+}
+
+@mixin btnHover() {
+    &:after {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        width: 0;
+        height: 100%;
+        background: $pera;
+        transition: all linear .3s;
+        z-index: -1;
+    }
+
+    &:before {
+        position: absolute;
+        content: '';
+        right: 0;
+        top: 0;
+        width: 0;
+        height: 100%;
+        background: $pera;
+        transition: all linear .3s;
+        z-index: -1;
+    }
+
+    &:hover {
+        color: #fff;
+
+        &:after,
+        &:before {
+            width: 50%;
+            transform: skewX(30deg);
+        }
+
+        &:before {
+            right: 1px;
+        }
+    }
 }

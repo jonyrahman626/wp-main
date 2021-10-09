@@ -42,6 +42,9 @@
             @include fs($head, 24px, 900);
             text-transform: uppercase;
             line-height: 32px;
+            position: relative;
+            z-index: 1;
+            @include btnHover();
         }
     }
 
