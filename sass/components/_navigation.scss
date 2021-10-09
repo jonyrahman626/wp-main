@@ -4,7 +4,7 @@
 .main_menu {
     height: 143px;
 
-    .menu_info{
+    .menu_info {
         ul {
             li {
                 a {
@@ -18,40 +18,48 @@
                         color: $cl3;
                     }
                 }
+
                 &:nth-child(1),
-                &:nth-child(2){
-                    a{
-                        span{
+                &:nth-child(2) {
+                    a {
+                        span {
                             margin-left: 10px;
                         }
                     }
                 }
+
                 &:nth-child(3),
-                &:nth-child(4){
+                &:nth-child(4) {
                     margin-left: 8px;
-                    a{
+
+                    a {
                         margin-left: 0;
                     }
                 }
             }
         }
     }
+
     #navbarSupportedContent {
-        ul{
-            li{
-                a{
+        ul {
+            li {
+                a {
                     @include fs($head, 21px, 900);
                     text-transform: uppercase;
                     font-weight: 900;
                     margin-left: 36px;
                     padding: 0;
                     margin-top: 15px;
+                    position: relative;
+                    z-index: 1;
+                    @include btnHover($pera);
                 }
             }
         }
     }
 }
-.menu_fix{
+
+.menu_fix {
     position: sticky;
     left: 0;
     top: 0;
@@ -61,11 +69,12 @@
     animation: menuAnimate 1s;
 }
 
-@keyframes menuAnimate{
-    from{
+@keyframes menuAnimate {
+    from {
         transform: translateY(-80px);
     }
-    to{
+
+    to {
         transform: translateY(0);
     }
 }

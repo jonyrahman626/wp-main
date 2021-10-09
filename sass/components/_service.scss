@@ -53,7 +53,7 @@
             text-transform: uppercase;
             position: relative;
             z-index: 1;
-            @include btnHover();
+            @include btnHover($pera);
         }
     }
 }

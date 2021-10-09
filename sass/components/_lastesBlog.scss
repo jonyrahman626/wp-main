@@ -44,6 +44,9 @@
                 line-height: 28px;
                 text-transform: uppercase;
                 margin-top: 16px;
+                position: relative;
+                z-index: 1;
+                @include btnHover($head);
             }
         }
     }
@@ -94,7 +97,7 @@
                 line-height: 28px;
                 position: relative;
                 z-index: 1;
-                @include btnHover();
+                @include btnHover($pera);
             }
         }
 

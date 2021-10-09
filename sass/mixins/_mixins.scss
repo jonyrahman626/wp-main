@@ -5,7 +5,7 @@
     // font-family: "eurostile";
 }
 
-@mixin btnHover() {
+@mixin btnHover($bg) {
     &:after {
         position: absolute;
         content: '';
@@ -13,7 +13,7 @@
         top: 0;
         width: 0;
         height: 100%;
-        background: $pera;
+        background: $bg;
         transition: all linear .3s;
         z-index: -1;
     }
@@ -25,7 +25,7 @@
         top: 0;
         width: 0;
         height: 100%;
-        background: $pera;
+        background: $bg;
         transition: all linear .3s;
         z-index: -1;
     }

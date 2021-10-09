@@ -44,7 +44,7 @@
             line-height: 32px;
             position: relative;
             z-index: 1;
-            @include btnHover();
+            @include btnHover($pera);
         }
     }
 
