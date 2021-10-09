@@ -2,10 +2,58 @@
 
 @media (min-width: 991px) and (max-width: 1199.98px) {}
 
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+        /* Menu part start */
+        .main_menu .navbar-brand img {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .main_menu #navbarSupportedContent ul li a {
+            font-size: 17px;
+            margin-left: 15px;
+            margin-top: 10px;
+        }
+
+        .main_menu .menu_info ul li a {
+            font-size: 16px;
+            margin-left: 13px;
+        }
+
+        .main_menu .menu_info ul li a svg{
+            width: 25px;
+            height: 25px;
+        }
+        /* Menu part end */
+    
+        /* Banner part start */
+        #banner .banner_text h1 {
+            font-size: 29px;
+            line-height: 45px;
+        }
+
+        #banner .banner_text p {
+            font-size: 18px;
+            line-height: 30px;
+        }
+        /* Banner part end */
+    
+        /* Menu part start */
+        /* Menu part end */
+    
+        /* Menu part start */
+        /* Menu part end */
+    
+        /* Menu part start */
+        /* Menu part end */
+    
+        /* Menu part start */
+        /* Menu part end */
+
+}
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-
     /* Mobile header start */
     #header_mobile {
         padding: 10px 0;
@@ -342,9 +390,9 @@
     }
 
     #latest_blog .team .team_text a {
-        padding: 10px 15px 10px 15px;
+        padding: 15px 15px 15px 15px;
         border: 4px solid #092772;
-        font-size: 16px;
+        font-size: 20px;
         margin-top: 20px;
     }
 
@@ -364,56 +412,45 @@
     }
 
     #latest_blog .lastes_blog .blog_text p {
-        font-size: 14px;
+        font-size: 18px;
         line-height: 24px;
     }
 
     #latest_blog .lastes_blog .blog_text h2 {
-        font-size: 27px;
-        line-height: 24px;
+        font-size: 35px;
+        line-height: 42px;
         padding-bottom: 15px;
-        padding-top: 16px;
+        padding-top: 50px;
     }
 
     #latest_blog .lastes_blog .blog_text a {
-        font-size: 16px;
-        padding: 10px 15px 10px 15px;
+        font-size: 20px;
+        padding: 15px 15px 15px 15px;
         border: 4px solid #2b8fe5;
         margin-top: 20px;
         margin-bottom: 30px;
     }
 
     #latest_blog .lastes_blog .slider::after {
-        right: 20px;
+        right: 153px;
         bottom: -58px;
-        width: 240px;
+        width: 310px;
         height: 74px;
     }
 
     #latest_blog .lastes_blog .progress {
         left: 16%;
-        bottom: -23px;
+        bottom: -24px;
     }
 
     .progress {
-        width: 100px;
-        height: 4px;
+        width: 165px;
+        height: 6px;
     }
 
     #latest_blog .lastes_blog .blog_left_arr,
     #latest_blog .lastes_blog .blog_right_arr {
         display: none !important;
-    }
-
-    #latest_blog .lastes_blog .slider .slick-dots li button {
-        width: 15px;
-        height: 4px;
-    }
-
-    #latest_blog .lastes_blog .slider .slick-dots li button::after {
-        left: 6px;
-        height: 15px;
-        width: 4px;
     }
 
     .team_img img {
@@ -444,13 +481,13 @@
     }
 
     #conversationa .convrs_text h2 {
-        font-size: 27px;
-        line-height: 35px;
+        font-size: 35px;
+        line-height: 42px;
     }
 
     #conversationa .convrs_text p {
-        font-size: 14px;
-        line-height: 24px;
+        font-size: 18px;
+        line-height: 26px;
         padding-bottom: 30px;
     }
 
@@ -459,28 +496,27 @@
     }
 
     #conversationa .convrs_text a {
-        padding: 10px 15px 10px 15px;
+        padding: 15px 15px 15px 15px;
         border: 4px solid #2b8fe5;
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .conv_shape2 img {
-        width: 100px;
+        width: 130px;
     }
 
     #conversationa .conv_shape2 {
-        right: -50px;
+        right: -65px;
     }
 
     /* Conversation part end */
 
     /* Footer part start */
     #footer {
-        padding: 50px 0;
+        padding: 60px 0;
     }
 
     .footer_logo img {
-        width: 100px;
         margin-bottom: 20px;
     }
 
@@ -494,17 +530,15 @@
     }
 
     #footer .footer_logo ul li a {
-        font-size: 16px;
         margin-left: 5px;
     }
 
     #footer .footer_menu ul li a {
-        font-size: 14px;
+        font-size: 16px;
         margin: 10px 10px 0;
     }
-
+    
     #footer .copy_right p {
-        font-size: 12px;
         padding-top: 40px;
     }
 
