@@ -35,6 +35,9 @@
             border: 6px solid $pera;
             text-transform: uppercase;
             line-height: 28px;
+            position: relative;
+            z-index: 1;
+            @include btnHover();
         }
         .about_text_shape{
             position: absolute;

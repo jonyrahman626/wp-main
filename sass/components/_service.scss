@@ -51,6 +51,9 @@
             @include fs($head, 21px, 900);
             line-height: 28px;
             text-transform: uppercase;
+            position: relative;
+            z-index: 1;
+            @include btnHover();
         }
     }
 }
