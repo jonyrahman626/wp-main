@@ -3,57 +3,309 @@
 @media (min-width: 991px) and (max-width: 1199.98px) {}
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-    
-        /* Menu part start */
-        .main_menu .navbar-brand img {
-            width: 100%;
-            margin-top: 10px;
-        }
 
-        .main_menu #navbarSupportedContent ul li a {
-            font-size: 17px;
-            margin-left: 15px;
-            margin-top: 10px;
-        }
+    /* Menu part start */
+    .main_menu .navbar-brand img {
+        width: 100%;
+        margin-top: 10px;
+    }
 
-        .main_menu .menu_info ul li a {
-            font-size: 16px;
-            margin-left: 13px;
-        }
+    .main_menu #navbarSupportedContent ul li a {
+        font-size: 17px;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
 
-        .main_menu .menu_info ul li a svg{
-            width: 25px;
-            height: 25px;
-        }
-        /* Menu part end */
-    
-        /* Banner part start */
-        #banner .banner_text h1 {
-            font-size: 29px;
-            line-height: 45px;
-        }
+    .main_menu .menu_info ul li a {
+        font-size: 16px;
+        margin-left: 13px;
+    }
 
-        #banner .banner_text p {
-            font-size: 18px;
-            line-height: 30px;
-        }
-        /* Banner part end */
-    
-        /* Menu part start */
-        /* Menu part end */
-    
-        /* Menu part start */
-        /* Menu part end */
-    
-        /* Menu part start */
-        /* Menu part end */
-    
-        /* Menu part start */
-        /* Menu part end */
+    .main_menu .menu_info ul li a svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .main_menu {
+        height: 100px;
+    }
+
+    /* Menu part end */
+
+    /* Banner part start */
+    #banner .banner_text h1 {
+        font-size: 29px;
+        line-height: 45px;
+    }
+
+    #banner .banner_text p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    #banner .banner_text {
+        padding-top: 0px;
+    }
+
+    #banner .banner_text a {
+        border: 4px solid #2b8fe5;
+        padding: 10px 15px 10px 15px;
+        font-size: 16px;
+    }
+
+    #banner .bg_img img {
+        padding-left: 20px;
+        height: 345px;
+    }
+
+    #banner .bg_img {
+        top: -75px;
+    }
+
+    #banner {
+        padding: 70px 0 70px;
+    }
+
+    /* Banner part end */
+
+    /* Service part start */
+    .ser_shap img {
+        width: 200px;
+    }
+
+    #service .ser_shap {
+        left: -30px;
+    }
+
+    #service .service_head h2 {
+        font-size: 35px;
+        line-height: 42px;
+    }
+
+    #service .service_head p {
+        font-size: 16px;
+    }
+
+    #service .ser_inner {
+        padding: 15px 15px 15px 15px;
+        border: 8px solid #f8f8f8;
+    }
+
+    #service .ser_inner h4 {
+        font-size: 26px;
+        padding-top: 20px;
+    }
+
+    #service .ser_inner a {
+        padding: 10px 15px 10px 15px;
+        font-size: 16px;
+        border: 4px solid #2b8fe5;
+        ;
+    }
+
+    #service {
+        padding: 50px 0 70px;
+    }
+
+    #service .container::after {
+        bottom: -20px;
+    }
+
+    .ser_inner svg{
+        width: 50px;
+        height: 50px;
+    }
+
+    /* Service part end */
+
+    /* Certification part start */
+    #certified_patner .container {
+        padding: 30px 15px 30px 15px !important;
+    }
+
+    #certified_patner .certify_text h2 {
+        color: #092772;
+        font-size: 35px;
+    }
+
+    #certified_patner .certify_text h2 {
+        font-size: 27px;
+        line-height: 42px;
+        padding-top: 0;
+    }
+
+    #certified_patner .certify_text p {
+        padding-bottom: 30px;
+    }
+
+    #certified_patner .certify_text p span {
+        padding-top: 15px;
+    }
+
+    #certified_patner .certify_text p {
+        color: #092772;
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    #certified_patner .certify_text {
+        padding-right: 0;
+    }
+
+    #certified_patner .crft2 {
+        margin-left: 15px;
+    }
+
+    #certified_patner {
+        padding-bottom: 70px;
+    }
+
+    /* Certification part end */
+
+    /* About part start */
+    #about {
+        padding: 70px 0 70px;
+    }
+
+    #about .about_text h2 {
+        font-size: 35px;
+        line-height: 42px;
+    }
+
+    #about .about_text p {
+        font-size: 16px;
+        line-height: 28px;
+        padding-top: 10px;
+    }
+
+    #about .about_text a {
+        padding: 10px 15px 10px 15px;
+        font-size: 16px;
+        border: 4px solid #2b8fe5;
+    }
+
+    #about .about_img .about_shape1 {
+        right: 26px;
+        top: -8px;
+    }
+
+    .about_shape1 img,
+    .about_shape2 img,
+    .about_shape3 img,
+    .about_shape4 img {
+        width: 50px;
+    }
+
+    #about .about_img .about_shape2 {
+        left: 123px;
+        top: 30px;
+    }
+
+    #about .about_img .about_shape3 {
+        position: absolute;
+        right: 100px;
+        bottom: -45px;
+        z-index: 1;
+    }
+
+    #about .shape_big {
+        position: absolute;
+        left: 100px;
+        top: 50px;
+    }
+
+    #about .shape_big img{
+        width: 50%;
+    }
+
+    #about .about_img .about_shape4 {
+        left: 20px;
+    }
+
+    #about .about_text .about_text_shape {
+        left: 95px;
+        bottom: -55px;
+    }
+
+    #about .about_text .about_text_shape img{
+        width: 50px;
+    }
+    /* About part end */
+
+    /* Mission part start */
+    #mission .mission_head h2 {
+        font-size: 35px;
+        line-height: 42px;
+    }
+
+    #mission .mission_head p {
+        font-size: 18px;
+        padding: 0 0px;
+    }
+
+    .mission_logo svg{
+        width: 80px;
+        height: 80px;
+    }
+
+    #mission .mission_logo h4 {
+        font-size: 25px;
+    }
+
+    #mission .mission_logo {
+        padding-top: 50px;
+    }
+
+    #mission .mission_btn a {
+        padding: 10px 15px 10px 15px;
+        border: 4px solid #2b8fe5;
+        margin-top: 50px;
+        font-size: 18px;
+    }
+
+    #mission {
+        padding-bottom: 240px;
+    }
+    /* Mission part end */
+
+    /* Latest part start */
+    .team_img img{
+        width: 100%;
+    }
+
+    #latest_blog .team {
+        padding: 30px 15px 30px 15px;
+    }
+
+    #latest_blog .team .team_text h2 {
+        font-size: 35px;
+        line-height: 42px;
+        padding-top: 0px;
+    }
+
+    #latest_blog .team .team_text p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    #latest_blog .team .team_text a {
+        padding: 10px 15px 10px 15px;
+        border: 4px solid #092772;
+        font-size: 16px;
+    }
+
+    #latest_blog .team {
+        top: -465px;
+    }
+    /* Latest part end */
+
+    /* Menu part start */
+    /* Menu part end */
 
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+
     /* Mobile header start */
     #header_mobile {
         padding: 10px 0;
@@ -537,7 +789,7 @@
         font-size: 16px;
         margin: 10px 10px 0;
     }
-    
+
     #footer .copy_right p {
         padding-top: 40px;
     }
