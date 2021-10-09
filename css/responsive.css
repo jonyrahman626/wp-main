@@ -1,4 +1,86 @@
-@media (min-width: 1200px) {}
+@media (min-width: 1700px) {
+    .container {
+        max-width: 1660px;
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 1699.98px) {
+    .container {
+        max-width: 1520px;
+    }
+}
+
+@media (min-width: 1500px) and (max-width: 1599.98px) {
+    .container {
+        max-width: 1420px;
+    }
+}
+
+
+@media (min-width: 1400px) and (max-width: 1499.98px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .container {
+        max-width: 1140px;
+    }
+
+    /* Banner part start */
+    #banner .banner_text h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    #banner .banner_text {
+        padding-top: 0px;
+    }
+
+    #banner .bg_img img {
+        padding-left: 20px;
+        height: 580px;
+    }
+
+    #banner .bg_img {
+        top: -130px;
+    }
+
+    /* Banner part end */
+
+    /* Service part start */
+    .ser_shap img {
+        width: 235px;
+    }
+
+    #service .ser_shap {
+        left: -30px;
+    }
+
+    #service .service_head h2 {
+        font-size: 43px;
+    }
+
+    #service .ser_inner {
+        padding: 30px 15px 30px 15px;
+        border: 8px solid #f8f8f8;
+    }
+
+    #service .ser_inner h4 {
+        font-size: 32px;
+    }
+
+    #service {
+        padding: 50px 0 70px;
+    }
+
+    #service .container::after {
+        bottom: -20px;
+    }
+
+    /* Service part end */
+}
 
 @media (min-width: 991px) and (max-width: 1199.98px) {
 
@@ -322,6 +404,7 @@
         padding: 15px 15px 15px 15px;
         margin-top: 20px;
     }
+
     #latest_blog .lastes_blog .slider::after {
         right: 200px;
         bottom: -50px;
@@ -348,7 +431,7 @@
         bottom: -22px;
     }
 
-    .conv_shape1 img{
+    .conv_shape1 img {
         width: 200px;
     }
 
