@@ -13,6 +13,10 @@
         position: absolute;
         left: 179px;
         top: 100px;
+        svg{
+            width: 100%;
+            height: 100%;
+        }
     }
 
     .about_text {
@@ -50,6 +54,12 @@
 
     .about_img {
         position: relative;
+        svg{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            z-index: 11;
+        }
 
         .about_main {
             z-index: 2;

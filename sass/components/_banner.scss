@@ -15,7 +15,7 @@
         top: -110px;
         z-index: -1;
 
-        img {
+        svg {
             padding-left: 77px;
             height: 723px;
         }
@@ -52,8 +52,9 @@
         max-width: 820.95px;
         position: relative;
         right: -30px;
-        img {
+        svg {
             width: 100%;
+            height: 100%;
         }
     }
 }
